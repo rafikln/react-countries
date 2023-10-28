@@ -1,0 +1,154 @@
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(98, 53, 210);
+  padding: 12px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+nav p {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+nav input {
+  border-radius: 25px;
+  border: 0;
+  outline: none;
+  padding: 0 10px;
+}
+section {
+  width: 40%;
+  height: 38px;
+  background-color: rgb(228, 244, 244);
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 13px;
+  display: flex;
+}
+section p {
+  width: 16.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(98, 53, 210);
+  font-weight: 600;
+}
+
+section p:hover {
+  background-color: rgb(98, 53, 210);
+  color: white;
+  cursor: pointer;
+}
+.one {
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+
+.six {
+  width: 19%;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+/* :::::::::::::::::::::::::pays:::::::::::::::::::: */
+main {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 180px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.pays {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(235, 249, 255);
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+}
+.img {
+  width: 100%;
+  height: 30%;
+  border-radius: 8px;
+}
+
+.pays h1 {
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px 0;
+  color: rgb(48, 47, 47);
+}
+.text {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+  padding: 0 10px;
+  border-top: 1px solid rgb(179, 179, 179);
+  padding-top: 5px;
+}
+.text p {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(69, 43, 139);
+}
+.text span {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.button {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.button button {
+  width: 45%;
+  height: 30px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(98, 53, 210);
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+}
+.button2 {
+  right: 7px;
+}
+.button1 {
+  text-decoration: none;
+  right: 7px;
+  color: white;
+}
+.add {
+  background-color: rgb(0, 183, 255);
+  color: white;
+}
+.loading {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-left: 3px solid rgb(0, 0, 0);
+  border-top: 3px solid rgb(0, 0, 0);
+  border-bottom: 3px solid rgb(0, 0, 0);
+  animation: rotate 0.5s linear infinite;
+ position: absolute;
+ top: 270px;
+ left: 500px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
